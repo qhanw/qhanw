@@ -2,7 +2,7 @@
 前端开发工程师一枚，早年从事UI设计工作，现以前端开发为主，喜欢工程化方面领域，喜欢交互设计。
 - 🎉 技术栈 NodeJs、React、Typescript、Electron等。
 - 🌱 目前正在学习前端自动化测试方面知识。
-- 💬 如何联系我: 微信 `AsQhan` 或邮箱：`whenhan@foxmail`  
+- 💬 如何联系我: 微信 `AsQhan` 或邮箱：<a mailto="whenhan@foxmail.com">whenhan@foxmail.com</a>
 
 更多详细信息：http://qhan.wang
 
