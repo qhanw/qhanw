@@ -5,7 +5,7 @@ I'm a senior software engineer. I was engaged in UI design in the early years an
 💬 wechat: `AsQhan`  
 ✉️ email: <a mailto="whenhan@foxmail.com">whenhan@foxmail.com</a>  
 
-More details on [qhan.wang](http://qhan.wang/).
+More details on [qhan.wang](https://qhan.wang).
 
 ### 🔨 Languages and Tools
 [![My Skills](https://skillicons.dev/icons?i=ts,nodejs,rust,react,nextjs,graphql,tauri,electron,tailwind,sass,wasm,nestjs,prisma,ai,ps)](https://skillicons.dev)
