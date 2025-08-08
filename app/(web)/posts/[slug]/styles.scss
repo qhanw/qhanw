@@ -1,0 +1,58 @@
+#toc {
+  display: none;
+}
+
+#toc + ul {
+  display: none;
+  position: fixed;
+  right: 16px;
+  top: 115px;
+  margin: 0;
+  padding: 0;
+  max-width: 240px;
+  max-height: 480px;
+  overflow: auto;
+
+  &::before {
+    display: table;
+    content: "Table of Contents";
+    color: rgba(42, 46, 54, 0.45);
+    font-weight: bold;
+  }
+}
+
+#toc + ul,
+#toc + ul ul {
+  list-style-type: none;
+  font-size: 14px;
+  margin: 0;
+
+  > li > a {
+    text-decoration: none;
+    color: rgb(55, 65, 81);
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 1024px) {
+  #toc + ul {
+    display: block !important;
+  }
+}
+
+.prose pre.shiki {
+  font-family:
+    DM Mono,
+    Input Mono,
+    Fira Code,
+    monospace;
+  font-size: 0.92em;
+  line-height: 1.4;
+  // margin: 0.5em 0;
+
+  background-color: #f9f9f9 !important;
+}
+
+.dark .prose pre.shiki {
+  background-color: rgb(15 23 42) !important;
+}
