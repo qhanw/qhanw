@@ -15,7 +15,7 @@ export default function ProjWrapper({
   if (href) {
     const cls = clsx(
       props.className,
-      "block border border-transparent hover:border-brand group no-underline font-normal"
+      "border border-transparent hover:border-brand group no-underline font-normal"
     );
     if (/^http(s?):\/\//.test(href)) {
       return <a href={href} target="_blank" {...props} className={cls} />;

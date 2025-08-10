@@ -100,8 +100,8 @@ export default () => (
               </span>
             </Link>
           ))}
+          <Theme />
         </nav>
-        <Theme />
       </div>
     </header>
     <div className="header-line-shadow" />
