@@ -11,18 +11,18 @@
   },
   "dependencies": {
     "@amap/amap-jsapi-loader": "^1.0.1",
-    "@shikijs/rehype": "^3.8.1",
+    "@shikijs/rehype": "^3.9.2",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
     "gray-matter": "^4.0.3",
-    "next": "^15.4.4",
+    "next": "^15.4.6",
     "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.4.6",
     "nextjs-toploader": "^3.8.16",
     "photoswipe": "^5.4.4",
     "plyr": "^3.7.8",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "react-use": "^17.6.0",
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^7.1.0",
@@ -39,25 +39,16 @@
     "@eslint/eslintrc": "^3.3.1",
     "@iconify-json/heroicons": "^1.2.2",
     "@iconify-json/ri": "^1.2.5",
-    "@types/node": "24.1.0",
-    "@types/react": "19.1.8",
-    "@types/react-dom": "19.1.6",
-    "@unocss/postcss": "66.3.3",
+    "@types/node": "24.2.1",
+    "@types/react": "19.1.9",
+    "@types/react-dom": "19.1.7",
+    "@unocss/postcss": "66.4.2",
     "@vercel/analytics": "^1.5.0",
-    "eslint": "^9.32.0",
-    "eslint-config-next": "^15.4.4",
+    "eslint": "^9.33.0",
+    "eslint-config-next": "^15.4.6",
     "postcss": "8.5.6",
-    "sass": "^1.89.2",
-    "typescript": "5.8.3",
-    "unocss": "66.3.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "core-js",
-      "esbuild",
-      "sharp",
-      "unrs-resolver"
-    ]
+    "sass": "^1.90.0",
+    "typescript": "5.9.2",
+    "unocss": "66.4.2"
   }
 }
