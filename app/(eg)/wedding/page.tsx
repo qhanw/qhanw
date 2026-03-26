@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Video from "./video";
+import { VideoPlayer } from "./video-player";
 import Amap from "./amap";
-
-import "./styles.scss";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://qhan.wang"),
@@ -24,12 +22,7 @@ export const metadata: Metadata = {
 export default function Wedding() {
   return (
     <div className="max-w-screen-sm m-auto">
-      <Video
-        // src={
-        //   "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
-        // }
-        src="http://s7ujthtod.hn-bkt.clouddn.com/1%E6%9C%8826%E6%97%A5.mp4"
-      />
+      <VideoPlayer src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" />
       <div className="text-center px-4 py-8 text-yellow-600">
         <div>爱如长途跋涉</div>
         <div>我们必将步履不停</div>
