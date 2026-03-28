@@ -16,7 +16,6 @@ export async function generateMetadata() {
 export default function Projects() {
   return (
     <>
-      {/* text-transparent text-stroke-2 text-stroke-hex-aaa */}
       <div className="text-3xl text-center font-semibold opacity-30 mb-8 mx-auto text-slate-800 dark:text-slate-100">
         Projects
       </div>

@@ -2,8 +2,8 @@
 import Script from "next/script";
 import Image from "next/image";
 
-import "./common.scss";
-import "./impress.scss";
+import "./common.css";
+import "./impress.css";
 
 import IMG_1 from "./images/IMG_1.jpg";
 import IMG_2 from "./images/IMG_2.jpg";

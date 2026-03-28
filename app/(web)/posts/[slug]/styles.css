@@ -2,7 +2,7 @@
   display: none;
 }
 
-#toc + ul {
+#toc+ul {
   display: none;
   position: fixed;
   right: 16px;
@@ -21,13 +21,13 @@
   }
 }
 
-#toc + ul,
-#toc + ul ul {
+#toc+ul,
+#toc+ul ul {
   list-style-type: none;
   font-size: 14px;
   margin: 0;
 
-  > li > a {
+  >li>a {
     text-decoration: none;
     color: rgb(55, 65, 81);
     font-weight: normal;
@@ -35,7 +35,7 @@
 }
 
 @media (min-width: 1024px) {
-  #toc + ul {
+  #toc+ul {
     display: block !important;
   }
 }
@@ -48,7 +48,7 @@
     monospace;
   font-size: 0.92em;
   line-height: 1.4;
-  // margin: 0.5em 0;
+  /* margin: 0.5em 0; */
 
   background-color: #f9f9f9 !important;
 }

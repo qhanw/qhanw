@@ -18,7 +18,7 @@ import { getPost, getAllPosts } from "@/app/(web)/lib/service";
 
 import MDXContent from "./MDXContent";
 
-import "./styles.scss";
+import "./styles.css";
 
 type Props = {
   params: Promise<{ slug: string }>;

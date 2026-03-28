@@ -4,7 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "next-themes";
 import NextTopLoader from "nextjs-toploader";
 
-import "./styles/globals.scss";
+import "./styles/globals.css";
 
 // const inter = Inter({ subsets: ["latin"] });
 

@@ -1,13 +1,16 @@
-// hide header
+/* hide header */
 .impress-enabled {
-  > header,
-  > .header-line-shadow {
+
+  >header,
+  >.header-line-shadow {
     display: none;
   }
 }
 
-// Now let's style the presentation steps.
-// We start with basics to make sure it displays correctly in everywhere ...
+/* 
+  Now let's style the presentation steps.
+  We start with basics to make sure it displays correctly in everywhere ... 
+ */
 .step {
   position: relative;
   width: 900px;
@@ -21,8 +24,10 @@
   line-height: 1.5;
 }
 
-// ... and we enhance the styles for impress.js.
-// Basically we remove the margin and make inactive steps a little bit transparent.
+/* 
+  ... and we enhance the styles for impress.js.
+  Basically we remove the margin and make inactive steps a little bit transparent. 
+ */
 .impress-enabled {
   .step {
     margin: 0;
@@ -36,18 +41,20 @@
   }
 }
 
-// These 'slide' step styles were heavily inspired by HTML5 Slides:
-// http://html5slides.googlecode.com/svn/trunk/styles.css
+/* 
+ These 'slide' step styles were heavily inspired by HTML5 Slides:
+ http://html5slides.googlecode.com/svn/trunk/styles.css
 
-// ;)
+ ;)
 
-// They cover everything what you see on first three steps of the demo.
+ They cover everything what you see on first three steps of the demo.
 
-// All impress.js steps are wrapped inside a div element of 0 size! This means that relative
-// values for width and height (example: `width: 100%`) will not work. You need to use pixel
-// values. The pixel values used here correspond to the data-width and data-height given to the
-// #impress root element. When the presentation is viewed on a larger or smaller screen, impress.js
-// will automatically scale the steps to fit the screen.
+ All impress.js steps are wrapped inside a div element of 0 size! This means that relative
+ values for width and height (example: `width: 100%`) will not work. You need to use pixel
+ values. The pixel values used here correspond to the data-width and data-height given to the
+ #impress root element. When the presentation is viewed on a larger or smaller screen, impress.js
+ will automatically scale the steps to fit the screen. 
+ */
 .slide {
 
   display: block;
@@ -56,10 +63,12 @@
   height: 700px;
   padding: 40px 60px;
 
-  // background-color: white;
-  // border: 1px solid rgba(0, 0, 0, 0.3);
-  // border-radius: 10px;
-  // box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  /* 
+   background-color: white;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+   */
 
   color: rgb(102, 102, 102);
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
@@ -67,21 +76,23 @@
   font-size: 30px;
   line-height: 36px;
 
-  > div {
+  >div {
     margin-top: -50px;
     margin-left: 16px;
     color: #fff;
   }
 }
 
-// And now we start to style each step separately.
+/* 
+ And now we start to style each step separately.
 
-// I agree that this may be not the most efficient, object-oriented and
-// scalable way of styling, but most of steps have quite a custom look
-// and typography tricks here and there, so they had to be styled separately.
+ I agree that this may be not the most efficient, object-oriented and
+ scalable way of styling, but most of steps have quite a custom look
+ and typography tricks here and there, so they had to be styled separately.
 
-// First is the title step with a big <h1> (no room for padding) and some
-// 3D positioning along Z axis.
+ First is the title step with a big <h1> (no room for padding) and some
+ 3D positioning along Z axis. 
+ */
 
 #title {
   padding: 0;
@@ -100,15 +111,16 @@
 
     transform: translateZ(50px);
   }
+
   .footnote {
     font-size: 32px;
   }
 }
 
-// Second step is nothing special, just a text with a link, so it doesn't need
-// any special styling.
+/* Second step is nothing special, just a text with a link, so it doesn't need
+ any special styling.
 
-// Let's move to 'big thoughts' with centered text and custom font sizes.
+ Let's move to 'big thoughts' with centered text and custom font sizes. */
 #big {
   width: 600px;
   text-align: center;
@@ -128,19 +140,19 @@
   }
 }
 
-// 'Tiny ideas' just need some tiny styling.
+/* 'Tiny ideas' just need some tiny styling. */
 #tiny {
   width: 500px;
   text-align: center;
 }
 
-// This step has some animated text ...
+/* This step has some animated text ... */
 #ing {
   width: 500px;
 }
 
-// ... so we define display to `inline-block` to enable transforms and
-// transition duration to 0.5s ...
+/* ... so we define display to `inline-block` to enable transforms and
+ transition duration to 0.5s ... */
 #ing b {
   display: inline-block;
 

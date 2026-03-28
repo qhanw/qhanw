@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 import list from "./set";
 
-import "./styles.scss";
+import "./styles.css";
 
 export async function generateMetadata() {
   return seo({

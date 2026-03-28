@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./styles.css";
 
 // import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
 

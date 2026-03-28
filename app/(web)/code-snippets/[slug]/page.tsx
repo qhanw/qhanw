@@ -18,7 +18,7 @@ import { getAllCodeSnippets, getCodeSnippet } from "@/app/(web)/lib/service";
 
 import MDXContent from "./MDXContent";
 
-import "./styles.scss";
+import "./styles.css";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -61,7 +61,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata(
-  props: Props
+  props: Props,
   // parent: ResolvingMetadata
 ): Promise<Metadata> {
   const { post } = await fetchCodeSnippet(props.params);
