@@ -4,33 +4,34 @@ const kits = [
   {
     name: "Tools",
     href: "/tools",
-    icon: "i-ri:navigation-line",
+    icon: "iconify ri--navigation-line",
+    
     target: false,
   },
   {
     name: "Components",
     href: "https://bizk.qhan.wang/components",
-    icon: "i-ri:shapes-line",
+    icon: "iconify ri--shapes-line",
   },
   {
     name: "Hooks",
     href: "https://bizk.qhan.wang/hooks",
-    icon: "i-ri:circle-line",
+    icon: "iconify ri--circle-line",
   },
   {
     name: "utils",
     href: "https://bizk.qhan.wang/utils",
-    icon: "i-ri:tools-line",
+    icon: "iconify ri--tools-line",
   },
   {
     name: "Store",
     href: "https://bizk.qhan.wang/store",
-    icon: "i-ri:store-line",
+    icon: "iconify ri--store-line",
   },
   {
     name: "Regexps",
     href: "https://bizk.qhan.wang/regexps",
-    icon: "i-ri:magic-line",
+    icon: "iconify ri--magic-line",
   },
 ];
 

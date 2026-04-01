@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const social = [
-  { name: "GitHub", href: "http://github.com/qhanw", icon: "i-logos-github" },
+  { name: "GitHub", href: "http://github.com/qhanw", icon: "iconify logos--github" },
   {
     name: "掘金",
     href: "https://juejin.cn/user/342703357833255",
-    icon: "i-logos-juejin",
+    icon: "iconify logos--juejin",
   },
-  { name: "语雀", href: "https://www.yuque.com/qhan", icon: "i-logos-yuque" },
+  { name: "语雀", href: "https://www.yuque.com/qhan", icon: "iconify logos--yuque" },
 ];
 
 export default function Social() {

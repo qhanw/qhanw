@@ -18,7 +18,7 @@ export default function ScrollTop() {
         { "opacity-80 cursor-pointer": y > 300, "opacity-0": y < 300 },
       )}
     >
-      <i className="i-heroicons:arrow-small-up" />
+      <i className="iconify heroicons--arrow-small-up" />
     </span>
   );
 }

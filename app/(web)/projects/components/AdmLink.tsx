@@ -7,7 +7,7 @@ export default function AdmLink({ href }: { href: string }) {
       onClick={() => window.open(href, "_blank")}
       title={href}
     >
-      <span className="i-heroicons:globe-alt mr-1" />
+      <span className="iconify heroicons--globe-alt mr-1" />
     </span>
   );
 }

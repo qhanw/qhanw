@@ -45,7 +45,7 @@ export default function Wedding() {
         <Amap />
         <footer className="flex items-center justify-center py-8">
           <Link className="text-yellow-600" href="/">
-            <span className="i-logos-sakura w-4 h-4 logo-rotate" />
+            <span className="iconify logos--sakura w-4 h-4 logo-rotate" />
           </Link>
 
           <div className="text-sm opacity-50 ml-1">

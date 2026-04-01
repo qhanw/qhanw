@@ -38,7 +38,7 @@ export default async function Posts() {
                 </span>
               ) : null}
               <time className="my-3 inline-flex items-center">
-                <span className="i-heroicons:calendar mr-1 w-4 h-4 text-brand" />
+                <span className="iconify heroicons--calendar mr-1 w-4 h-4 text-brand" />
                 <DateFormat value={post.meta?.date} short />
               </time>
               <span className="mx-2 w-0.5 h-0.5 bg-slate-400" />

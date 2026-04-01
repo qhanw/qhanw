@@ -11,7 +11,7 @@ const nav = [
     icon: (props: any) => (
       <span
         {...props}
-        className={clsx("i-heroicons:newspaper", props.className)}
+        className={clsx("iconify heroicons--newspaper", props.className)}
       />
     ),
   },
@@ -21,7 +21,7 @@ const nav = [
   //   icon: (props: any) => (
   //     <span
   //       {...props}
-  //       className={clsx("i-heroicons:pencil-square", props.className)}
+  //       className={clsx("iconify heroicons--pencil-square", props.className)}
   //     />
   //   ),
   // },
@@ -31,7 +31,7 @@ const nav = [
     icon: (props: any) => (
       <span
         {...props}
-        className={clsx("i-heroicons:code-bracket", props.className)}
+        className={clsx("iconify heroicons--code-bracket", props.className)}
       />
     ),
   },
@@ -43,7 +43,7 @@ const nav = [
     icon: (props: any) => (
       <span
         {...props}
-        className={clsx("i-heroicons:rectangle-stack", props.className)}
+        className={clsx("iconify heroicons--rectangle-stack", props.className)}
       />
     ),
   },
@@ -53,7 +53,7 @@ const nav = [
     icon: (props: any) => (
       <span
         {...props}
-        className={clsx("i-heroicons:wrench-screwdriver", props.className)}
+        className={clsx("iconify heroicons--wrench-screwdriver", props.className)}
       />
     ),
   },
@@ -73,7 +73,7 @@ export default () => (
         <div className="flex justify-start md:w-0 md:flex-1">
           <Link href="/" className="inline-flex items-center text-brand">
             <span className="sr-only">Workflow</span>
-            <span className="i-logos-sakura w-6 h-6 logo-rotate" />
+            <span className="iconify logos--sakura w-6 h-6 logo-rotate" />
             <span className="text-lg ml-2 font-medium text-slate-900 dark:text-slate-300">
               Qhan W
             </span>

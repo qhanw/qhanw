@@ -91,12 +91,12 @@ export default async ({ params }: Props) => {
             </span>
           ) : null}
           <time className="inline-flex items-center">
-            <span className="i-heroicons:calendar mr-1 w-4 h-4 text-brand" />
+            <span className="iconify heroicons--calendar mr-1 w-4 h-4 text-brand" />
             <DateFormat value={post.meta?.date} />
           </time>
           {/* <span className="mx-2 w-0.5 h-0.5 bg-slate-500" /> */}
           <time className="inline-flex items-center ml-2">
-            <span className="i-heroicons:clock mr-1 w-4 h-4 text-brand" />
+            <span className="iconify heroicons--clock mr-1 w-4 h-4 text-brand" />
             阅读
             {Math.ceil(post.meta?.readingTime?.minutes ?? 0)}
             分钟
@@ -119,7 +119,7 @@ export default async ({ params }: Props) => {
               href={prev.slug}
               className="inline-flex items-center min-w-0 no-underline text-slate-600 hover:text-slate-800 dark:hover:text-slate-300 ease-out"
             >
-              <span className="i-heroicons:chevron-left mr-1 h-4 w-4" />
+              <span className="iconify heroicons--chevron-left mr-1 h-4 w-4" />
               <span className="truncate flex-1">{prev.title}</span>
             </Link>
           )}
@@ -132,7 +132,7 @@ export default async ({ params }: Props) => {
             >
               <span className="truncate flex-1">{next.title}</span>
 
-              <span className="i-heroicons:chevron-right ml-1 h-4 w-4" />
+              <span className="iconify heroicons--chevron-right ml-1 h-4 w-4" />
             </Link>
           )}
         </span>

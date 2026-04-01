@@ -12,7 +12,7 @@ export default function Theme() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return <i className="i-ri:palette-line" />;
+  if (!mounted) return <i className="iconify ri--palette-line" />;
 
   const isDark = theme === "dark";
 
@@ -21,7 +21,7 @@ export default function Theme() {
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className="text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 cursor-pointer"
     >
-      <i className={isDark ? "i-ri:sun-fill" : "i-ri:moon-fill"} />
+      <i className={isDark ? "iconify ri--sun-fill" : "iconify ri--moon-fill"} />
     </span>
   );
 }

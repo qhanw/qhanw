@@ -14,7 +14,7 @@ export default ({ className }: FooterProps) => (
     )}
   >
     <Link className="text-brand" href="/" aria-label="Qhan W">
-      <span className="i-logos-sakura w-4 h-4 logo-rotate" />
+      <span className="iconify logos--sakura w-4 h-4 logo-rotate" />
     </Link>
     <Copyright />
   </footer>
