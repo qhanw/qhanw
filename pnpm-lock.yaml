@@ -1725,8 +1725,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001782:
-    resolution: {integrity: sha512-dZcaJLJeDMh4rELYFw1tvSn1bhZWYFOt468FcbHHxx/Z/dFidd1I6ciyFdi3iwfQCyOjqo9upF6lGQYtMiJWxw==}
+  caniuse-lite@1.0.30001784:
+    resolution: {integrity: sha512-WU346nBTklUV9YfUl60fqRbU5ZqyXlqvo1SgigE1OAXK5bFL8LL9q1K7aap3N739l4BvNqnkm3YrGHiY9sfUQw==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -3679,8 +3679,8 @@ packages:
   undici-types@7.18.2:
     resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
-  undici@7.24.6:
-    resolution: {integrity: sha512-Xi4agocCbRzt0yYMZGMA6ApD7gvtUFaxm4ZmeacWI4cZxaF6C+8I8QfofC20NAePiB/IcvZmzkJ7XPa471AEtA==}
+  undici@7.24.7:
+    resolution: {integrity: sha512-H/nlJ/h0ggGC+uRL3ovD+G0i4bqhvsDOpbDv7At5eFLlj2b41L8QliGbnl2H7SnDiYhENphh1tQFJZf+MyfLsQ==}
     engines: {node: '>=20.18.1'}
 
   unified@11.0.5:
@@ -5287,7 +5287,7 @@ snapshots:
   browserslist@4.28.2:
     dependencies:
       baseline-browser-mapping: 2.10.13
-      caniuse-lite: 1.0.30001782
+      caniuse-lite: 1.0.30001784
       electron-to-chromium: 1.5.330
       node-releases: 2.0.36
       update-browserslist-db: 1.2.3(browserslist@4.28.2)
@@ -5311,7 +5311,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001782: {}
+  caniuse-lite@1.0.30001784: {}
 
   ccount@2.0.1: {}
 
@@ -6430,7 +6430,7 @@ snapshots:
       saxes: 6.0.0
       symbol-tree: 3.2.4
       tough-cookie: 6.0.1
-      undici: 7.24.6
+      undici: 7.24.7
       w3c-xmlserializer: 5.0.0
       webidl-conversions: 8.0.1
       whatwg-mimetype: 5.0.0
@@ -7092,7 +7092,7 @@ snapshots:
       '@next/env': 16.2.2
       '@swc/helpers': 0.5.15
       baseline-browser-mapping: 2.10.13
-      caniuse-lite: 1.0.30001782
+      caniuse-lite: 1.0.30001784
       postcss: 8.4.31
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
@@ -7978,7 +7978,7 @@ snapshots:
 
   undici-types@7.18.2: {}
 
-  undici@7.24.6:
+  undici@7.24.7:
     optional: true
 
   unified@11.0.5:

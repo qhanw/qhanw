@@ -53,7 +53,10 @@ const nav = [
     icon: (props: any) => (
       <span
         {...props}
-        className={clsx("iconify heroicons--wrench-screwdriver", props.className)}
+        className={clsx(
+          "iconify heroicons--wrench-screwdriver",
+          props.className,
+        )}
       />
     ),
   },
@@ -92,7 +95,7 @@ export default () => (
               aria-label={item.name}
             >
               <item.icon
-                className="flex-shrink-0 h-4 w-4 "
+                className="shrink-0 size-4 fill-current"
                 aria-hidden="true"
               />
               <span className="hidden md:flex text-slate-500 hover:text-slate-900 dark:hover:text-slate-200">

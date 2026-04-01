@@ -3,6 +3,18 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
+type ThemeBtnProps = { onClick?: () => void; icon?: string };
+function ThemeBtn({ onClick, icon = "ri--moon-fill" }: ThemeBtnProps) {
+  return (
+    <span
+      onClick={onClick}
+      className="text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 cursor-pointer"
+    >
+      <i className={`iconify ${icon}`} />
+    </span>
+  );
+}
+
 export default function Theme() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -12,16 +24,14 @@ export default function Theme() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return <i className="iconify ri--palette-line" />;
+  if (!mounted) return <ThemeBtn />;
 
   const isDark = theme === "dark";
 
   return (
-    <span
+    <ThemeBtn
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className="text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-100 cursor-pointer"
-    >
-      <i className={isDark ? "iconify ri--sun-fill" : "iconify ri--moon-fill"} />
-    </span>
+      icon={isDark ? "ri--sun-fill" : "ri--moon-fill"}
+    />
   );
 }
