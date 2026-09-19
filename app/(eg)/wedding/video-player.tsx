@@ -1,19 +1,16 @@
 "use client";
 
 import "@videojs/react/video/skin.css";
-import { createPlayer, videoFeatures } from "@videojs/react";
-import { VideoSkin, Video } from "@videojs/react/video";
-
-const Player = createPlayer({ features: videoFeatures });
+import { VideoPlayer as Player, VideoSkin, Video } from '@videojs/react/video';
 
 type VideoProps = { src: string };
 
 export const VideoPlayer = ({ src }: VideoProps) => {
   return (
-    <Player.Provider>
-      <VideoSkin poster="/images/wedding/poster.jpg" className="rounded-none!">
+    <Player poster="/images/wedding/poster.jpg">
+      <VideoSkin className="rounded-none! aspect-video">
         <Video src={src} playsInline loop />
       </VideoSkin>
-    </Player.Provider>
+    </Player>
   );
 };
