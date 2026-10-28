@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["eslint", "react", "unicorn", "oxc", "typescript", "nextjs"],
+  "ignorePatterns": ["node_modules/**", ".next/**", "dist/**", "build/**"],
+  "options": { "typeAware": true },
+  // "categories": {
+  //   "correctness": "error"
+  // },
+  "rules": {
+    "import/no-anonymous-default-export": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+  // "env": {
+  //   "builtin": true
+  // }
+}
